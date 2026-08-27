@@ -27,7 +27,7 @@ qplot(agevector,income)
 ## Exercise 1.3:
 # Create a function that returns the salary given the age of the player
 age_to_salary <- function( age ) {
-  result <- (age-15)*5000+10000
+  result <- age
   return(result)
 }
 
